@@ -2,7 +2,6 @@
 A lua script for MPV that closes the previous instance(s) automatically.
 
 # - How to use - 
-### On Windows
 Go to where your mpv scripts are stored.
 
 > For Windows:
@@ -12,3 +11,8 @@ Go to where your mpv scripts are stored.
 `~/.config/mpv/scripts`
 
 Place lua file there, profit & prosper.
+
+### JUST SO YOU KNOW
+
+I haven't tested it on Linux yet as I don't have a linux machine avalible.
+This is made for the people who never use mpv via terminal and perfer the pseudo-GUI.
