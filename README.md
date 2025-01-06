@@ -11,6 +11,4 @@ Go to where your mpv scripts are stored.
 > For Linux:
 `~/.config/mpv/scripts`
 
-Place lua file there,
-
-Profit & Prosper.
+Place lua file there, profit & prosper.
