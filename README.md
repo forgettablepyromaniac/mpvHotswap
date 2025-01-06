@@ -1,6 +1,10 @@
 # mpvHotswap
 A lua script for MPV that closes the previous instance(s) automatically.
 
+This does NOT use a socket, I tried to write it specifically to avoid that...
+
+... Mostly because I don't know how they work and I was scared of it :(
+
 # - How to use - 
 Go to where your mpv scripts are stored.
 
