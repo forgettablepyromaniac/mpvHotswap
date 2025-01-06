@@ -18,6 +18,6 @@ Place lua file there, profit & prosper.
 
 ### JUST SO YOU KNOW
 
-I haven't tested it on Linux yet as I don't have a linux machine avalible, but I *DID* write it so hopefully it works on all three main Operating Systems (Windows [my test machine], Mac, and Linux.)
+This has yet to be tested on Mac (Windows and Linux [at least with openSuse] is confirmed to work.)
 
 This is made for the people who never use mpv via terminal and perfer the pseudo-GUI.
