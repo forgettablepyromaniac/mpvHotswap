@@ -7,7 +7,7 @@ local is_unix = not is_windows
 
 function kill_other_instances()
     local current_pid = tostring(mp.get_property("pid"))
-
+    
     -- Define cmds based on OS
     local process_list_cmd
     if is_windows then
@@ -30,8 +30,10 @@ function kill_other_instances()
             pid = line:match("%s(%d+)%s")
             process_name = line:match("^mpv%.exe")
         elseif is_unix then
-            pid, process_name = line:match("^(%d+)%s+(%S+)")
+            pid, process_name = line:match("^%s*(%d+)%s+(.+)")
         end
+
+        mp.msg.info("is_unix: " .. tostring(pid))
 
         -- Kill the process if it's an MPV instance and not the current one
         if pid and (process_name == "mpv" or process_name == "mpv.exe") then
